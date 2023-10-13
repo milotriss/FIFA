@@ -1,0 +1,192 @@
+/* banner */
+.banner {
+    margin-bottom: 50px;
+    height: 600px;
+    padding-left: 30px;
+    background-position: center;
+    background-image: url("https://digitalhub.fifa.com/transform/2ad3545c-140f-436c-afe8-dd066f63719c/Enzo-Fernandez-Argentina?io=transform:fill,height:1024,width:1920&quality=75");
+}
+
+.banner_group {
+    padding-top: 400px;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+}
+
+.banner_title {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.banner_desc {
+    text-transform: uppercase;
+}
+
+/* banner */
+
+/* Tournament */
+
+.tournament {
+    padding: 50px 30px;
+    background-color: #045694;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.tournament_item {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    color: #fff;
+    transition: ease-in 0.5s;
+    border-radius: 10px;
+}
+
+.tournament_item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.tournament_item img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.tournament_item:hover, .tournament_item img{
+    transform: scale(1.05);
+}
+
+/* tournament */
+
+/* Banner store */
+
+.bannerstore {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://digitalhub.fifa.com/transform/81be39fe-e184-484c-9254-75b6cb15655f/FPLS_FIFAStore_Banner_01?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    margin-bottom: 30px;
+}
+
+.bannerstore_group {
+    width: 600px;
+    transform: translateX(30px);
+    padding-top: 15%;
+}
+
+.bannerstore_group h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bannerstore_group p {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.btn_bannerstore {
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: transparent;
+    transition: 0.2s;
+}
+
+.btn_bannerstore:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+/* Bannerstore */
+
+/* Store */
+
+.store {
+    padding: 30px 30px;
+    text-align: center;
+}
+
+.store_item {
+    display: inline-block;
+    width: 15.5%;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.store_item:hover {
+    cursor: pointer;
+    transform: scale(1.09);
+}
+
+.store_item img {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.store_item:not(:last-child) {
+    margin-right: 15px;
+}
+
+ .store_title {
+    line-height: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+
+ .bannerstore.bannerstore2 {
+    background-image: url("https://digitalhub.fifa.com/transform/9bd32427-ee63-497a-a0ca-605379625544/FIFAPLS_Tournaments_FIFAPLSCollect_HeroMobile_01?io=transform:fill,aspectratio:3x4,height:1023&quality=75");
+ }
+ /* Store */
+
+ /* Playzone */
+
+ .play_zone {
+    text-align: center;
+    padding: 30px 30px;
+
+ }
+
+ .play_zone-item {
+    background-image: url("https://digitalhub.fifa.com/transform/89d716b1-495a-4ab7-a64c-4bab013deb6d/FIFAPLS_PlayZone_Rail_TH_04-GLOBAL?io=transform:fill,aspectratio:16x9,width:450&quality=75");
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 22%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+
+ .play_zone-item:hover p {
+    transform: translateY(160px);
+ }
+
+ .play_zone-item:not(:last-child) {
+    margin-right: 30px;
+ }
+
+ .play_zone-item p {
+    color: #fff;
+    background-color: rgba(155, 148, 148, 0.5);
+    padding: 10px;
+    transform: translateY(200px);
+    transition: 0.3s;
+ }
